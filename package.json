@@ -1,0 +1,19 @@
+{
+  "name": "cheapgpt",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^31.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "openai": "^4.52.3"
+  }
+}
