@@ -16,6 +16,7 @@ document.getElementById('send-button').addEventListener('click', async () => {
       const response = await window.api.sendMessage(apiKey, userInput);
       const botResponseDiv = document.createElement('div');
       botResponseDiv.textContent = `Bot: ${response}`;
+      botResponseDiv.style.color = "green";
       chatBox.appendChild(botResponseDiv);
     } catch (error) {
       const errorDiv = document.createElement('div');
